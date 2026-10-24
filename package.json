@@ -1,0 +1,23 @@
+{
+  "name": "netninjas",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashu004unique/Netninja-Node-CrashCourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashu004unique/Netninja-Node-CrashCourse/issues"
+  },
+  "homepage": "https://github.com/yashu004unique/Netninja-Node-CrashCourse#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.3.0",
+    "lodash": "^4.18.1"
+  }
+}

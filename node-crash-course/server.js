@@ -56,6 +56,21 @@ const server = http.createServer((req, res) => {
     }
   });
 });
+
+// lodash
+// reqiore must come at the top
+const _ = require("lodash");
+const num = _.random(0, 30);
+console.log(num);
+
+// to call a function only once
+const hello = _.once(() => {
+  console.log("gud mrngg");
+});
+
+hello();
+hello();
+hello();
 server.listen(3000, "localhost", () => {
   console.log("listening for requests on port 3000");
 });
